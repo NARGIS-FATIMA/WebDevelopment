@@ -1,0 +1,7 @@
+ul{
+    list-style-type:disc;
+}
+dl{
+    list-style-type: lower-alpha;
+    color:brown;
+}

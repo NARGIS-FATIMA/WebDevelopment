@@ -1,0 +1,51 @@
+h2{
+    color:brown;
+    font-size:24px;
+    margin-left: 200px;
+}
+body{
+    background-color: lightcyan;
+}
+.fname {
+font-size: 34px;
+color: blue;
+}
+
+.fnameinput{
+width: 150px;
+padding: 12px 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh stands for viewport height */
+    border: 1px solid black;
+  }
+  
+.myform{
+    border: 1px solid black;
+    padding: 30px;
+}
+.lname{
+    font-size: 30px;
+    color: blue;
+}
+.lnameinput {
+    width: 150px;
+    padding: 12px 20px;
+    }
+    .sex{
+        font-size: 30px;  
+    }
+    .male{
+        font-size: 30px;
+    }
+    .female{
+        font-size: 30px;
+    }
+    .submit{
+        font-size: 20px;
+    }
+    
