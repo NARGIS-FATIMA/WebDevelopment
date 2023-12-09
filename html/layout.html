@@ -34,14 +34,15 @@
     </footer>
     <!-- <a href="../index.html">Back</a> -->
     <form>
-        <input type="button" class="myinput" value="Back" onclick="msg()">
+        <input type="button" class="myinput" value="Back" onclick="msg(window.location.href)">
     </form>
 
     <script>
-        function msg() {
+        function msg(data) {
+            console.log("mydata==",data);
 
-            if (window.location.toString().includes("http")) // This doesn't work, any suggestions?
-            {
+            if (data.includes("http")) // This doesn't work, any suggestions?
+            {                
                 window.location.href="http://127.0.0.1:5500/index.html" 
             } else {
                 window.location.href="https://web-development-sigma-nine.vercel.app/"
