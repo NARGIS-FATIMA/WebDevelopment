@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../css/layout.css">
-        <title>CSS TEMPLATE</title>
-    </head>
-    <body>
-        <h2>CSS Layout Float</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, vero distinctio? Fuga accusantium ullam ratione repellat, molestiae itaque! Eveniet et ab sunt sit accusantium voluptas iure sequi, aperiam magni alias!</p>
-        <header>
-            <h2>Cities</h2>
-        </header>
-        <section>
-            <nav>
-                <ul>
-                    <li> <a href="#">London</a></li>
-                    <li><a href="#">Paris</a></li>
-                    <li><a href="#">Tokyo</a></li>
-                </ul>
-            </nav>
-            <article>
-                <h1>London</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis pariatur ut molestias illo quis aliquid voluptas nisi earum illum exercitationem at harum, ad minima nostrum, veniam enim repellat. Provident, sed?</p>
-            </article>
-        </section>
-        <footer>
-            <p>Footer</p>
-        </footer>
-        <!-- <a href="../index.html">Back</a> -->
-        <form>
+
+<head>
+    <link rel="stylesheet" href="../css/layout.css">
+    <title>CSS TEMPLATE</title>
+</head>
+
+<body>
+    <h2>CSS Layout Float</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, vero distinctio? Fuga accusantium ullam
+        ratione repellat, molestiae itaque! Eveniet et ab sunt sit accusantium voluptas iure sequi, aperiam magni alias!
+    </p>
+    <header>
+        <h2>Cities</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li> <a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>London</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis pariatur ut molestias illo quis aliquid
+                voluptas nisi earum illum exercitationem at harum, ad minima nostrum, veniam enim repellat. Provident,
+                sed?</p>
+        </article>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    <!-- <a href="../index.html">Back</a> -->
+    <form>
         <input type="button" class="myinput" value="Back" onclick="msg()">
     </form>
-       
+
     <script>
         function msg() {
-          window.location.href="http://127.0.0.1:5500/index.html"
+
+            if (window.location.toString().includes("http")) // This doesn't work, any suggestions?
+            {
+                window.location.href="http://127.0.0.1:5500/index.html" 
+            } else {
+                window.location.href="https://web-development-sigma-nine.vercel.app/"
+            }
         }
-        </script>
-        
-    </body>
+    </script>
+
+</body>
+
 </html>
