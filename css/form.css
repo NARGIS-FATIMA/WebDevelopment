@@ -48,4 +48,11 @@ padding: 12px 20px;
     .submit{
         font-size: 20px;
     }
-    
+
+.input{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}    
