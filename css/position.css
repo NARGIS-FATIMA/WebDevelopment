@@ -1,0 +1,24 @@
+/* .relative {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+
+  .absolute{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 100px;
+  } */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    
+  }
+
