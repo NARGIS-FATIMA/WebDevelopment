@@ -1,0 +1,9 @@
+.back {
+    background-color: #04AA6D;
+    color: rgb(237, 31, 31);
+}
+.myinput{
+    padding: 10px;
+    margin: 20px;
+    color: red;   
+   }

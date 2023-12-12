@@ -1,0 +1,11 @@
+.childDiv{
+    width: 100px;
+    height: 100px;
+    background-color: powderblue;
+    margin: 10px;
+}
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

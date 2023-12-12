@@ -1,0 +1,58 @@
+/* *{
+    background-color: powderblue;
+    text-align: center;
+} */
+#idSelector{
+    color: red;
+}
+.classSelector{
+    color: blue;
+}
+h3{
+    color: green;
+}
+body{
+    background-image: url("../images/OIP.jpeg");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+}
+#p1{
+    border-style: dotted;
+    padding-bottom: 50px;
+}
+#p2{
+    border-style: dashed;
+    margin: 50px;
+}
+#p3{
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+}
+#p4{
+    border-style: double;
+}
+#p5{
+    border-style: groove;
+}
+#p6{
+    border-style: ridge;
+}
+#p7{
+    border-style: inset;
+}
+#p8{
+    border-style: outset;
+}
+#p9{
+    border-style: none;
+}
+#p10{
+    border-style: hidden;
+}
+a:link{
+text-decoration: dotted;
+}
+a:hover{
+    text-decoration: dotted;
+}

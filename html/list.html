@@ -41,6 +41,24 @@
             <dd>Strawberry Flavor</dd>
         </dl>
     </head>
-    <a href="../index.html">Back Button</a>
+    <!-- <a href="../index.html">Back Button</a> -->
+
+    <div>
+        <form>
+            <input type="button" class="myinput" value="Back" onclick="msg(window.location.href)">
+
+        </form>
+        <script>
+            function msg(data){
+                console.log(data.toString().includes("https://web-development-sigma-nine.vercel.app/"))
+                    if(data.toString().includes("https://web-development-sigma-nine.vercel.app/")){
+                        window.location.href="https://web-development-sigma-nine.vercel.app/"
+                    }
+                    else{
+                        window.location.href="http://127.0.0.1:5500"
+                    } 
+            }
+        </script>
+    </div>
     </body>
 </html>
